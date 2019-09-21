@@ -38,6 +38,7 @@ public class registerUserTest {
                  .selectDropDownItem(tipo)
                 .insertContactInfo(contact).captureTheFlag();
         String msg =  new deleteInfoUser(browser).deletInfo().captureTheFlag();
+        //teste
         System.out.println(statu);
         System.out.println(msg);
 
